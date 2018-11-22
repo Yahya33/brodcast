@@ -1,5 +1,5 @@
 client.on('message', message => {
-    var prefix = "f!";
+    var prefix = "!";
     
         if (message.author.id === client.user.id) return;
         if (message.guild) {
@@ -25,4 +25,4 @@ client.on('message', message => {
             return;
         }
     });
-    
+    client.login('NTExMTA0NDg4NTI3MTAxOTYz.Dtgdwg.fDToDgzwbb90JFhqUbiFpg8I3no')
